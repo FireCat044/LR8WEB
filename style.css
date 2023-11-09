@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+h1 {
+    color:#179737;
+}
+
+.container {
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.button{
+display: inline-block;
+  background: #179737;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}

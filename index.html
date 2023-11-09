@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrips.js"></script>
+    <title>Гра на випадкових числах</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Гра на випадкових числах</h1>
+        <div id="start-container">
+            <label for="player1-name" class="players">Ім'я гравця 1: </label>
+            <input type="text" id="player1-name" placeholder="Гравець 1">
+            <label for="player2-name">Ім'я гравця 2: </label>
+            <input type="text" id="player2-name" placeholder="Гравець 2">
+            <button class = "button" id="start-button" >Почати гру</button>
+        </div>
+        <div id="game-container" class="hidden">
+            <p id="player1-score"></p>
+            <p id="player2-score"></p>
+            <p id="result"></p>
+            <button id="play-button" class = "button">Грати</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
